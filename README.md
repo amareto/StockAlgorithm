@@ -19,6 +19,6 @@ py -m pip install -r requirements.txt
 
 ## Scan for Stocks to Buy
 * Install [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) and [geckodriver](https://github.com/mozilla/geckodriver/releases)
-* Put the geckodriver.exe file in the root directory
+* Put the geckodriver.exe file in StockAlgorithm/
 * Run main on CrossoverStrategy/TechnicalAnalysis.py
 * Paste Alpha Vantage API key in console (explained above) and hit enter
