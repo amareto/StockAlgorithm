@@ -30,6 +30,7 @@ class Backtesting:
         """
         print("Starting cash: ${}".format(self.cash))
         print("Invest amount: ${}".format(self.invest_amount))
+        print("Commencing"...)
         api_call_count = 0
         for ticker in test_tickers:
             if api_call_count % 5 == 0:  # 5 API calls allowed per min
