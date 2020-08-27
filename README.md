@@ -5,6 +5,7 @@ A profitable stock trading algorithm based on a exponential moving average (EMA)
 ## Download and Install
 ```
 git clone https://github.com/Ncohen10/StockAlgorithm
+cd StockAlgorithm
 py -m pip install -r requirements.txt
 ```
 
@@ -19,6 +20,6 @@ py -m pip install -r requirements.txt
 
 ## Scan for Stocks to Buy
 * Install [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) and [geckodriver](https://github.com/mozilla/geckodriver/releases)
-* Put the geckodriver.exe file in the root directory
+* Put the geckodriver.exe file in StockAlgorithm/
 * Run main on CrossoverStrategy/TechnicalAnalysis.py
 * Paste Alpha Vantage API key in console (explained above) and hit enter
